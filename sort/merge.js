@@ -3,6 +3,7 @@ let level = 0;
 console.log(arr);
 const result = mergeSort(arr);
 console.log(result);
+
 function mergeSort(arr) {
   if (arr.length == 1) {
     return arr;
